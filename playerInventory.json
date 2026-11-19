@@ -1,0 +1,11 @@
+
+{
+    "id": 1,
+    "inventoryOwner": "",
+    "equippedWeapon": 1,
+    "holsteredWeapon": 2,
+    "food": 10,
+    "healthPotions": 3,
+    "specialItems": [],
+    "keys": []
+}

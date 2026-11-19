@@ -1,0 +1,102 @@
+Class - Entity
+Atributes:
+    - name   (str)
+    - health   (str)
+    - immunities   (list)
+    - resistances   (list)
+    - weaknesses   (list)
+    - effected by   (list)
+    - level   (int)
+    - hunger   (int)
+    - number of attacks   (list)
+    - stats    (list)
+        - strength   (int)
+        - dexterity   (int)
+        - stealth   (int)
+        - wisdom   (int)
+        - constitution   (int)
+        - charisma   (int)
+    - actions   (list)
+
+Entity - Player
+Atributes:
+    - experience   (int)
+    - discovered areas   (list)
+    - stat points   (int)
+    - actions outside combat   (list)
+
+Entity - Enemy
+Atributes:
+    - experience dropped   (int)
+    - loot   (list)
+    - spawns in   (list)
+
+Entity - Enemy - Boss
+Atributes:
+    - phases   (list)
+    - summons minions   (bool)
+    - minions summoned   (list)
+
+Entity - NPC
+Atributes:
+    - unlocks area   (list)
+    - gives player   (list)
+    - has shop   (bool)
+    - shop   (obj)
+
+
+Class - Area
+Atributes:
+    - name   (str)
+    - paths   (list)
+    - dangerous   (bool)
+    - spawnable enemies   (list)
+    - enemy capacity   (int)
+    - has been discovered   (bool)
+    - enterable   (bool)
+    - unlock condition   (function)
+    - exitable   (bool)
+    - exit condition   (function)
+    - loot   (list)
+
+Area - Path 
+Atributes:
+    - leads to   (list)
+    - has obstacle   (bool)
+    - obstacle   (obj)
+
+Area - Path - Obstacle 
+Atributes:
+    - requires key   (bool)
+    - key required   (list)
+    - consumes key   (bool)
+    - breakable   (bool)
+        - health   (int)
+        - immunities   (list)
+        - resistances   (list)
+        - weaknesses   (list)
+    - guarded by   (obj)
+
+
+Class - Action
+Atribute:
+    - name
+    - item used
+    - consumes hunger
+    - consumes item
+    - requires item
+    - turns to recharge
+    - usable in combat
+    - usable outside combat
+
+Action - Melee
+Atributes:
+    - target
+    - weapon used
+    - damage dealt
+    - effects given
+
+Action - Spell
+Atributes:
+    - target
+    - 

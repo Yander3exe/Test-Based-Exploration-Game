@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "username": "y",
+    "max_hp": 100,
+    "current_hp": 100,
+    "lvl": 1,
+    "exp": 0,
+    "strength": 1,
+    "magica": 1,
+    "agility": 1,
+    "wisdom": 1,
+    "stealth": 1,
+    "hunger": 10
+}

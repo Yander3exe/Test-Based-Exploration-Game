@@ -1,0 +1,16 @@
+[
+    {
+        "weapon_id": 1,
+        "weapon_name": "",
+        "weapon_type": "",
+        "damage_type": "",
+        "base_damage": 0
+    },
+    {
+        "weapon_id": 2,
+        "weapon_name": "The Throngler",
+        "weapon_type": "Sword",
+        "damage_type": "slashing",
+        "base_damage": "10"
+    }
+]
